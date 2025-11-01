@@ -1,4 +1,4 @@
-# DS_Amazon-Music-Clustering  with K-Means and DBSCAN
+# DS_Amazon-Music-Clustering  with K-Means (unsupervised Learning)
 Discovering patterns in music through data!
 This project applies unsupervised learning (K-Means) to group songs with similar audio characteristics and helps visualize how songs differ by their musical features.
 
@@ -9,7 +9,7 @@ Energy
 Valence 
 Loudness 
 Acousticness 
-and to cluster them into meaningful musical groups using K-Means clustering and DBSCAN.
+and to cluster them into meaningful musical groups using K-Means clustering.
 
 # Dataset
 Rows: 95837 songs
@@ -27,7 +27,7 @@ Performed K-Means clustering and DBSCAN
 Determined optimal k using the Elbow Method
 Evaluated performance with:
 Silhouette Score: 0.2276
-Davies–Bouldin Index: 1.65
+
 
 # Visualization
 PCA (2D plot) – visualizing clusters in two dimensions
@@ -42,5 +42,5 @@ Cluster 2: Live/Vocal Tracks
 
 # Tech Stack
 Language: Python
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn,K_Means,DBSCAN,Silhouette Score
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn,K_Means,Silhouette Score
 Environment: Jupyter Notebook
